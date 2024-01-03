@@ -1,0 +1,24 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "overrides": [
+    {
+      "files": ["*.html", "*.ts", "*.scss"],
+      "options": {
+        "arrowParens": "avoid",
+        "bracketSameLine": false,
+        "bracketSpacing": true,
+        "insertPragma": false,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "printWidth": 80,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "semi": true,
+        "trailingComma": "none",
+        "endOfLine": "crlf"
+      }
+    }
+  ]
+}
